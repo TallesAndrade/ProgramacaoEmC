@@ -30,5 +30,20 @@ int main()
     printf("Produto: %.2f\n", produto2);
     printf("Quociente: %.2f\n", quociente2);
 
+    printf("--------------------\n");
+    int a3 = 10;
+    float b3 = 3.5;
+    float resultado = a3 + b3; // 'a3' é convertido implicitamente para float
+
+    printf("Resultado: %.2f\n", resultado);
+
+    printf("--------------------\n");
+
+    int a4 = 10;
+    int b4 = 3;
+    float quociente4 = (float) a4 / b4; // 'a' é explicitamente convertido para float
+ 
+    printf("Quociente: %.2f\n", quociente4);
+
     return 0;
 }
