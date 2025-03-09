@@ -9,4 +9,5 @@ int main()
     char letra = 'T';
     char nome[20] = "Talles";
     printf("Hello World\n");
+    return 0;
 }
