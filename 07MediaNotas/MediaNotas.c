@@ -11,9 +11,7 @@ int main(){
 
     double media = (nota1 + nota2 + nota3) / 3.0;
 
-    printf("Nota1: %.2lf, Nota2: %.2lf, Nota3: %.2lf\n", nota1, nota2, nota3);
-
-    printf("A média das 3 notas é: %.2lf\n" , media);
+    printf("A média das 3 notas é: %.1lf\n" , media);
 
 
 
