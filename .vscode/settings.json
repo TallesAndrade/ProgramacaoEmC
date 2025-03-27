@@ -1,7 +1,9 @@
 {
   "files.associations": {
     "A.C": "cpp",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "algorithm": "c",
+    "format": "c"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
